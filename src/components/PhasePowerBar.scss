@@ -1,0 +1,31 @@
+.boxBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.barGray {
+  height: 13px;
+  width: 72px;
+  border-radius: 10px;
+  background-color: #D3D3D3;
+}
+
+.barColor {
+  height: 13px;
+  border-radius: 10px;
+  color: white;
+  font-size: 10px;
+  padding: 0 7px;
+  line-height: 140%;
+}
+
+.divVolume {
+  position: relative;
+  top: 0px;
+  height: 13px;
+  font-size: 11px;
+  padding-left: 8px;
+}

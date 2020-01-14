@@ -1,0 +1,42 @@
+// hover class added when
+.rotatingContentContainer:hover .rotationWrapper {
+  transform: rotateX(180deg);
+}
+
+// rotate class added for external rotation ability
+.rotate .rotationWrapper {
+  transform: rotateX(180deg);
+}
+
+.scene {
+  perspective: 600px;
+  height: 100%;
+  width: 100%;
+}
+
+.rotationWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.cardFace {
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  > div {
+    backface-visibility: hidden;
+  }
+}
+
+.avers {  // avers - content visible on start
+  transform: rotateX(0deg);
+}
+
+.observe {  // observe - content visible after hovering
+  transform: rotateX(180deg);
+  position: absolute;
+  top: 0;
+}
