@@ -16,7 +16,7 @@ Przykładowy URL do zapytania API to: <https://api.openchargemap.io/v3/poi/?outp
     - 3,7 kW < moc ≤ 11 kW
     - 11 kW < moc
     - nieznana moc
-  - __Trzeci poziom__ to lista z punktami ładowania. Po kliknięciu w konkretną nazwę pojawiają się szczegóły tego punktu ładowania, które podzielić można na dwa widoki. Pierwszy, domyślny widok pokazuje się od razu po kliknięciu w pojedynczy punkt. Przedstawia podstawowe informacje o punkcie ładowania. W widoku tym dostępny jest przycisk "więcej". Po kliknięciu w ten przycisk, pojawia się drugi widok, zastępujący pierwszy, który wyświetla informacje dodatkowe. Zmianie tej powinna towarzyszyć dowolna animacja przejścia, np. rotateX(). Przykładową zmianę widoku przedstawia przykład dostęþny tutaj: <http://jsfiddle.net/nesmar/c2oa7r2g/>
+  - __Trzeci poziom__ to lista z punktami ładowania. Po kliknięciu w konkretną nazwę pojawiają się szczegóły tego punktu ładowania, które podzielić można na dwa widoki. Pierwszy, domyślny widok pokazuje się od razu po kliknięciu w pojedynczy punkt. Przedstawia podstawowe informacje o punkcie ładowania. W widoku tym dostępny jest przycisk "więcej". Po kliknięciu w ten przycisk, pojawia się drugi widok, zastępujący pierwszy, który wyświetla informacje dodatkowe. Zmianie tej powinna towarzyszyć dowolna animacja przejścia, np. rotateX(). Przykładową zmianę widoku przedstawia przykład dostępny tutaj: <http://jsfiddle.net/nesmar/c2oa7r2g/>
 
 ### Struktura drzewa ładowarek
 - Miasto - stolice województw
